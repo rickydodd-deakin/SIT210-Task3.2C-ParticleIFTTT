@@ -36,7 +36,7 @@ void loop() {
     uint16_t lux;
     bool inSunlight = false;
     
-    delay(30000);
+    delay(300000);
     
     // Sunlight through a window pane should be between 20,000 ~ 50,000 lux.
     // If my sensor were working, I'd instead write lux = BH.readLightLevel();
